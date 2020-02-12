@@ -1,0 +1,118 @@
+/*阿里iconfont图标*/
+@font-face {
+  font-family: 'iconfont';  /* project id 1381328 */
+  src: url('//at.alicdn.com/t/font_1381328_nyoi7ndl1s.eot');
+  src: url('//at.alicdn.com/t/font_1381328_nyoi7ndl1s.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1381328_nyoi7ndl1s.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1381328_nyoi7ndl1s.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1381328_nyoi7ndl1s.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1381328_nyoi7ndl1s.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+ /* 标题描述 */
+.container-desc
+  background-color #eef1f6
+  color #2c3e50
+  line-height 32px
+  font-size 14px
+  padding 8px 20px 8px 20px
+/*图片比例显示*/
+ShowScale(scale=28%,color=#cacaca){
+  overflow:hidden
+  width:100%
+  height :0
+  padding-bottom :30%
+  background-color:#cacaca
+}
+/*文字超出省略*/
+TextHidden(line = 2){
+  overflow :hidden
+  display:-webkit-box
+  -webkit-box-orient:vertical
+  -webkit-line-clamp:line
+  text-overflow: ellipsis
+}
+
+/*图片容器*/
+ImgContainer(width=50%,height=50%){
+  width :width
+  height :height
+}
+
+/*获取视窗高度 height calc(100vh);*/
+
+/*鼠标悬浮效果*/
+/*&:hover
+  text-decoration underline 文字下划线
+  cursor  pointer    指针变手*/
+
+/*半个空格： &ensp;*/
+/*一个空格： &emsp;*/
+clearFix(){
+  &:after {
+    visibility hidden
+    display block
+    font-size 0
+    content " "
+    clear both
+    height 0
+  }
+}
+
+menuText = #bfcbd9;
+menuActiveText = #409EFF;
+menuBg = #304156;
+sideBarWidth = 210px;
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/*fade-transform*/
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all .5s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+/*breadcrumb transition*/
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all .5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.breadcrumb-move {
+  transition: all .5s;
+}
+
+.breadcrumb-leave-active {
+  position: absolute;
+}

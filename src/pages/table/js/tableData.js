@@ -1,0 +1,42 @@
+
+module.exports =  {
+  dataList : [
+    { date:'2019-08-20',name:'王小二',email:'111@163.com',phone:'1234567890',addr:'上海add1',tag:'员工' },
+    { date:'2019-08-22',name:'赵四',email:'222@163.com',phone:'1234567890',addr:'上海add2',tag:'经理' },
+    { date:'2019-08-25',name:'本山',email:'333@163.com',phone:'1234567890',addr:'上海add3',tag:'员工' },
+    { date:'2019-08-28',name:'叮咚',email:'444@163.com',phone:'1234567890',addr:'上海add4',tag:'员工' },
+    { date:'2019-08-30',name:'李白',email:'555@163.com',phone:'1234567890',addr:'上海add5',tag:'大神' },
+    { date:'2019-09-01',name:'杜甫',email:'777@163.com',phone:'1234567890',addr:'上海add6',tag:'员工' },
+    { date:'2019-09-03',name:'黄鹤',email:'888@163.com',phone:'1234567890',addr:'上海add7',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓11',email:'999@163.com',phone:'1234567890',addr:'上海add8',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓12',email:'999@163.com',phone:'1234567890',addr:'上海add9',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓13',email:'999@163.com',phone:'1234567890',addr:'上海add10',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓14',email:'999@163.com',phone:'1234567890',addr:'上海add11',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓15',email:'999@163.com',phone:'1234567890',addr:'上海add12',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓16',email:'999@163.com',phone:'1234567890',addr:'上海add13',tag:'员工' },
+    { date:'2019-08-20',name:'王小二',email:'111@163.com',phone:'1234567890',addr:'上海add14',tag:'员工' },
+    { date:'2019-08-22',name:'赵四',email:'222@163.com',phone:'1234567890',addr:'上海市add15',tag:'经理' },
+    { date:'2019-08-25',name:'本山',email:'333@163.com',phone:'1234567890',addr:'上海市add16',tag:'员工' },
+    { date:'2019-08-28',name:'叮咚',email:'444@163.com',phone:'1234567890',addr:'上海市add17',tag:'员工' },
+    { date:'2019-08-30',name:'李白',email:'555@163.com',phone:'1234567890',addr:'上海市add18',tag:'大神' },
+    { date:'2019-09-01',name:'杜甫',email:'777@163.com',phone:'1234567890',addr:'上海市add19',tag:'员工' },
+    { date:'2019-09-03',name:'黄鹤',email:'888@163.com',phone:'1234567890',addr:'上海市add20',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓',email:'999@163.com',phone:'1234567890',addr:'上海add21',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓1',email:'999@163.com',phone:'1234567890',addr:'上海add22',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓2',email:'999@163.com',phone:'1234567890',addr:'上海add23',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓3',email:'999@163.com',phone:'1234567890',addr:'上海add24',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓4',email:'999@163.com',phone:'1234567890',addr:'上海add25',tag:'员工' },
+    { date:'2019-09-05',name:'卢文卓5',email:'999@163.com',phone:'1234567890',addr:'上海add26',tag:'员工' },
+    { date:'2019-08-20',name:'王小二',email:'111@163.com',phone:'1234567890',addr:'上海市add27',tag:'员工' },
+    { date:'2019-08-22',name:'赵四',email:'222@163.com',phone:'1234567890',addr:'上海市add28',tag:'经理' },
+    { date:'2019-08-25',name:'本山',email:'333@163.com',phone:'1234567890',addr:'上海市add29',tag:'员工' }
+  ],
+  showPanel : [
+    { title:"date",name: "日期", defaultShow:true ,sort:true, width: "100" },
+    { title:"name",name: "姓名", defaultShow:true ,sort:true, width: "80"},
+    { title:"email",name: "邮箱", defaultShow:true ,sort:false, width: "120"},
+    { title:"phone",name: "手机", defaultShow:true ,sort:false, width: "120"},
+    { title:"addr",name: "地址", defaultShow:true ,sort:false, width: "250"},
+    { title:"tag",name: "标签", defaultShow:true ,sort:false, width: "80"},
+  ]
+}
