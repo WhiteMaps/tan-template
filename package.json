@@ -15,7 +15,7 @@
     "file-saver": "^2.0.2",
     "mavon-editor": "^2.7.6",
     "style-loader": "^1.0.0",
-    "tinymce": "^5.0.16",
+    "tinymce": "^5.1.4",
     "vue": "^2.5.2",
     "vue-baidu-map": "^0.21.22",
     "vue-router": "^3.0.1",
